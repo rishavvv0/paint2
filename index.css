@@ -1,0 +1,2712 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}   
+h1{
+    
+    font-family: 'PT Sans', sans-serif;
+}
+h2, h3, h4, h5, h6{
+    font-family: 'Roboto', sans-serif;
+}
+p,a,label{
+    font-family: 'Open Sans', sans-serif;
+}
+@media screen and (min-width:1260px) {
+    h1{
+        font-size: 72px;
+    } 
+.section1{
+
+}
+.container{
+    margin: auto;
+    padding: 0 0 0 14%;
+}
+.oneflex{
+    display: flex;
+}
+.oned{
+    width: 34%;
+    display: flex;
+    flex-direction: column;
+    padding: 175px 0 174px 20px;
+    animation: one 1s  reverse 0.5s;
+    
+    position: relative;
+}
+@keyframes one{
+    0%{
+        left: 0px;
+        right: 0px;
+
+    }
+    50%{
+        right: 400px;
+    }
+    
+}
+
+.oned h1{
+    font-weight: 700;
+    line-height: 1.1;
+    text-shadow: -2px 2px 3px rgba(255,255,255,1);
+    color: #633be2;
+}
+.oned p{
+    line-height: 1.8;
+    font-size: 1.25rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.section1 a{
+    color: black;
+    border-bottom: 1px solid;
+}
+.oned button{
+    border-style: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.875rem;
+    background-image: linear-gradient(to right, #23bdf3, #633be2);
+    padding: 20px 30px 21px 13px;
+    width: 48%;
+    color: white;
+}
+.oned button:hover{
+    color: rgba(255, 255, 255, 0.858);
+}
+.onebg{
+   background: url("img/bg1.jpg"); 
+   width: 66%;
+   background-size: cover;
+   position: relative;
+   animation: onebg 1s  reverse 0.5s;
+   
+}
+@keyframes onebg{
+    0%{
+        left: 0px;
+        right: 0px;
+    }
+    50%{
+       left: 100%;
+    }
+}
+.section2{
+
+}
+.cont{
+padding: 0 14%;
+}
+.head{
+    text-align: center;
+    padding: 30px 0;
+}
+.head h2{
+    font-size: 72px;
+    position: relative;
+    animation: header normal;
+    animation-duration: 2s;
+}
+@keyframes header{
+    0%{
+        right: 0px;
+        left: 0px;
+    }
+    50%{
+        right: 100%;
+    }
+    100%{
+        right: 0px;
+    }
+}
+.head p{
+    font-size: 20px;
+    line-height: 1.8;
+    padding: 0 23%;
+    margin: 10px 0 0;
+    position: relative;
+    animation: headerp reverse;
+    animation-duration: 2s;
+}
+@keyframes headerp{
+    0%{
+        right: 0px;
+        left: 0px;
+    }
+    50%{
+        left: 100%;
+    }
+    100%{
+        right: 0px;
+    }
+}
+.logoflex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 58px;
+    cursor: pointer;
+}
+.log1{
+    display: flex;
+    box-sizing: border-box;
+    width: 21%;
+    padding: 35px 20px;
+    gap: 3px;
+    position: relative;
+    animation: log normal;
+    animation-duration: 2s;
+}
+@keyframes log{
+    0%{
+       transform: scale(1,1);
+    }
+    50%{
+       transform: scale(1.2,1.2);
+    }
+    100%{
+        transform: scale(1,1);
+    }
+}
+.log1 img{
+    width: 25px;
+}
+.log1 h6{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.section3{
+
+}
+.third{
+    padding: 150px 0 0;
+    display: flex;
+}
+.gredient{
+    width: 228px;
+    height: 228px;
+    background-image: linear-gradient(#23bdf3, #633be2);
+    border-radius: 50%;
+    position: relative;
+    animation: gredient reverse;
+    animation-duration: 2s;
+}
+@keyframes  gredient{
+    0%{
+        left: 0;
+        right: 0px;
+    }
+    50%{
+        left: 100%;
+    }
+}
+
+.thbg{
+background: url("img/bg2.jpg");
+width: 70%;
+position: relative;
+background-size: cover;
+right: 11%;
+top: 102px;
+border-radius: 14px;
+height: 455px;
+animation: bg reverse;
+animation-duration: 2s;
+}
+@keyframes  bg{
+0%{
+    left: 0;
+    right: 0px;
+}
+50%{
+    left: 100%;
+}
+}
+.thirddata{
+    display: flex;
+    flex-direction: column;
+    width: 452px;
+    min-height: 451px;
+    position: relative;
+    color: #111111;
+    background-color: #f2f2f2;
+    padding: 30px 40px;
+    border-radius: 2%;
+    position: relative;
+    bottom: 96px;
+    left: 61%;
+    animation: d normal;
+    animation-duration: 3s;
+}
+@keyframes  d{
+    0%{
+        left: 0;
+        right: 0px;
+    }
+    50%{
+        left: 80%;
+    }
+}
+.thirddata h2{
+    font-size: 72px;
+}
+.p1{
+    line-height: 1.8;
+    font-size: 1.25rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.p2{
+    line-height: 1.8;
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+}
+.p2 a{
+    color: black;
+    border-bottom: 2px solid;
+}
+.a{
+    margin-top: 44px;
+}
+.a a{
+    border-style: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.875rem;
+    background-image: linear-gradient(to right, #23bdf3, #633be2);
+    padding: 20px 30px 21px 13px;
+    color: white;
+}
+.section4{
+background: #f2f2f2;
+}
+.fourflex{
+    display: flex;
+    gap: 5%;
+    padding: 94px 0;
+    position: relative;
+
+}
+.four1{
+    width: 53%;
+    padding: 157px 20px 0;
+    position: relative;
+    animation: for reverse;
+    animation-duration: 2s;
+}
+@keyframes for {
+    from{
+        left: 0px;
+        right: 0px;
+        transform: rotate(0deg);
+    }
+    to{
+        right: 50%;
+        transform: rotate(359deg);
+    }
+}
+.four1 h2 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.2;
+}
+.four2{
+    width: 55%;
+    position: relative;
+    animation: forflex reverse;
+    animation-duration: 2s;
+}
+@keyframes forflex {
+    from{
+        left: 0px;
+        right: 0px;
+    }
+    to{
+        left: 50%;
+    }
+}
+.f1{
+    display: flex;
+    justify-content: start;
+    padding: 20px;
+    gap: 23px;
+    border-bottom: 1px solid;
+    width: 84%;
+}
+.img {
+    width: 18%;
+    border: 6px solid;
+    border-color: #633be2;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    animation: new normal;
+    animation-duration: 2s;
+}
+@keyframes new {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(359deg);
+    }
+}
+.img img{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+.imd {
+    margin-top: 20px;
+}
+.imd h6{
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 1.125rem;
+}
+.imd p{
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 100;
+}
+.section5{
+    background: rgb(242,242,242);
+    background: linear-gradient(180deg, rgba(242,242,242,1) 63%, rgba(255,255,255,1) 63%);
+    position: relative;
+    animation: section5 normal;
+    animation-duration: 2s;
+}
+@keyframes section5 {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(359deg);
+    }
+}
+.fifth{
+    padding: 88px 0 0;
+}
+.fifth h2{
+    font-size: 72px;
+    width: 68%;
+}
+.float{
+    padding: 0px;
+}
+.grad{
+    width: 228px;
+    height: 228px;
+    background-image: linear-gradient(#23bdf3, #633be2);
+    border-radius: 50%;
+    position: relative;
+    float: right;
+}
+.fiftbg{
+background: url("img/fifth.jpg");
+background-size: cover;
+width: 70%;
+    height: 532px;
+    position: relative;
+    top: 102px;
+    left: 22%;
+    border-radius: 3%;
+}
+.fifthd{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 37%;
+    background: white;
+    padding: 40px;
+    border-radius: 2%;
+    bottom: 282px;
+    right: 58px;
+}
+.section6{
+
+}
+.header{
+    text-align: center;  
+    position: relative;
+    animation: he normal;
+    animation-duration: 2s;
+}
+@keyframes he {
+    from{
+        transform: scale(0.3,0.3);
+    }
+    to{
+        transform: scale(1,1);
+    }
+}
+.header h2{
+    font-size: 72px;
+}
+.sixflex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1px;
+    margin: 95px 0;
+}
+.s1{
+background: url("img/six1.jpg");
+background-size: cover;
+width: 27%;
+padding: 30px;
+border-radius: 4%;
+background-position: center;
+}
+.s2{
+    width: 28%;
+    padding: 28px;
+    text-align: center;
+    height: 317px;
+    margin: 70px 0 0;
+    position: relative;
+    animation: s2 normal;
+    animation-duration: 2s;
+}
+@keyframes s2 {
+    from{
+        transform: scale(0.1,0.1);
+        /* transform: rotate(0deg); */
+    }
+    to{
+        transform: scale(1,1);
+        /* transform: rotate(359deg); */
+    }
+}
+.s2 h4{
+    line-height: 1.2;
+    font-size: 1.5rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+.s2 p{
+    font-size: 20px;
+    line-height: 1.6;
+    margin: 20px 0;
+}
+.s3{
+background: url("img/six2.jpg");
+background-size: cover;
+background-size: cover;
+width: 26%;
+padding: 30px;
+border-radius: 4%;
+background-position: center;
+}
+.s4{
+background: url("img/six3.jpg");
+background-size: cover;
+    width: 31%;
+    background-position: center;
+    margin: 26px 0 0;
+    background-position: center;
+    border-radius: 4%;
+}
+.section7{
+    padding: 76px 0 255px;
+}
+.header p{
+    font-size: 18px;
+    padding: 23px 180px; 
+}
+.bxflex{
+    display: flex;
+    justify-content: space-around;
+    padding: 28px 0;
+}
+.bx1{
+    background-image: linear-gradient(#633be2, #23bdf3);
+    width: 19%;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 20px;
+    color: white;
+    border-radius: 20px;
+    position: relative;
+    animation: bx normal;
+    animation-duration: 2s;
+}
+@keyframes bx {
+    from{
+        top: 50px;
+        transform: scale(0.2,0.2);
+    }
+    to{
+        top: 0px;
+        transform: scale(1,1);
+    }
+}
+.bx1 p{
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1rem;
+    margin: 0 auto;
+}
+.bx1 h3{
+    font-size: 4.5rem;
+    font-weight: 700;
+    margin: 20px auto 0;
+}
+.section8{
+    background-image: linear-gradient(to right, #23bdf3, #633be2);
+}
+.cont1{
+    display: flex;
+    justify-content: center;
+    gap: 23px;
+    position: relative;
+    bottom: 127px;
+}
+.contdata{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 24%;
+    padding: 27px 10px;
+    background: antiquewhite;
+    text-align: center;
+    align-items: center;
+    border-radius: 17px;
+    color: black;
+    background: #f2f2f2;
+}
+.contdata img{
+    width: 33%;
+}
+.contdata h5{
+    font-weight: 700;
+    margin: 20px 0 0;
+    line-height: 1.2;
+    font-size: 1.25rem;
+}
+.contdata p{
+    line-height: 1.8;
+    font-size: 1.25rem;
+    margin-top: 20px;
+}
+.mainflex{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.form{
+    width: 48%;
+}
+.lab{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.name{
+    width: 48%;
+}
+.name label{
+    display: block;
+    font-weight: 700;
+}
+.name input{
+    width: 98%;
+    padding: 7px 0;
+    font-size: 19px;
+}
+.mess{
+    margin: 54px 0 0;
+}
+.mess label{
+    display: block;
+    font-weight: 700;
+}
+.mess textarea{
+    width: 99%;
+}
+.ank{
+    width: 99%;
+    text-align: center;
+    color: #ffffff ;
+    background-color: #ed5e00 ;
+    padding: 14px 0 15px;
+    margin: 23px 0;
+}
+.ank a{
+    border-style: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 3px;
+    color: white;
+}
+.formdata{
+    width: 44%;
+}
+.formdata h2{
+    line-height: 1;
+    font-size: 4.5rem;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+.formdata h6{
+    font-weight: 700;
+    line-height: 1.8;
+    font-style: italic;
+    font-size: 1.125rem;
+    margin: 20px 0 0;
+}
+.formdata p{
+    line-height: 2;
+    font-size: 1rem;
+    margin: 20px 0 0;
+}
+.li{
+    list-style-type: none;
+    display: flex;
+    width: 38%;
+    justify-content: space-between;
+    margin: 23px 0;
+}
+.li li{
+    font-size: 40px;
+}
+
+}
+
+
+@media screen and (min-width:1024px) and (max-width:1259px) {
+    
+    .section1{
+    
+    }
+    .container{
+        margin: auto;
+        padding: 0 0 0 14%;
+    }
+    .oneflex{
+        display: flex;
+    }
+    .oned{
+        width: 34%;
+        display: flex;
+        flex-direction: column;
+        padding: 175px 0 174px 0px;
+        animation: one 1s reverse 0.5s;
+        position: relative;
+    }
+    @keyframes one{
+        0%{
+            left: 0px;
+            right: 0px;
+    
+        }
+        50%{
+            right: 400px;
+        }
+        
+    }
+    
+    .oned h1{
+        font-weight: 700;
+        line-height: 1.1;
+        text-shadow: -2px 2px 3px rgba(255,255,255,1);
+        color: #633be2;
+        font-size: 35px;
+    }
+    .oned p{
+        line-height: 1.8;
+        font-size: 1.25rem;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .section1 a{
+        color: black;
+        border-bottom: 1px solid;
+    }
+    .oned button{
+        border-style: none;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-size: 0.875rem;
+        background-image: linear-gradient(to right, #23bdf3, #633be2);
+        padding: 20px 17px 18px 13px;
+        width: 54%;
+        color: white;
+    }
+    .oned button:hover{
+        color: rgba(255, 255, 255, 0.858);
+    }
+    .onebg{
+       background: url("img/bg1.jpg"); 
+       width: 66%;
+       background-size: cover;
+       position: relative;
+       animation: onebg 1s  reverse 0.5s;
+       
+    }
+    @keyframes onebg{
+        0%{
+            left: 0px;
+            right: 0px;
+        }
+        50%{
+           left: 100%;
+        }
+    }
+    .section2{
+    
+    }
+    .cont{
+        padding: 0 10%;
+    }
+    .head{
+        text-align: center;
+        padding: 30px 0;
+    }
+    .head h2{
+        font-size: 72px;
+        position: relative;
+        animation: header normal;
+        animation-duration: 2s;
+    }
+    @keyframes header{
+        0%{
+            right: 0px;
+            left: 0px;
+        }
+        50%{
+            right: 100%;
+        }
+        100%{
+            right: 0px;
+        }
+    }
+    .head p{
+        font-size: 20px;
+        line-height: 1.8;
+        padding: 0 13% 3%;
+        margin: 10px 0 0;
+        position: relative;
+        animation: headerp reverse;
+        animation-duration: 2s;
+    }
+    @keyframes headerp{
+        0%{
+            right: 0px;
+            left: 0px;
+        }
+        50%{
+            left: 100%;
+        }
+        100%{
+            right: 0px;
+        }
+    }
+    .logoflex{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 58px;
+        cursor: pointer;
+    }
+    .log1{
+        display: flex;
+    box-sizing: border-box;
+    width: 46%;
+    padding: 35px 20px;
+    gap: 3px;
+    position: relative;
+    animation: log normal;
+    animation-duration: 2s;
+    }
+    @keyframes log{
+        0%{
+           transform: scale(1,1);
+        }
+        50%{
+           transform: scale(1.2,1.2);
+        }
+        100%{
+            transform: scale(1,1);
+        }
+    }
+    .log1 img{
+        width: 8%;
+    }
+    .log1 h6{
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 1.2;
+    }
+    .section3{
+    
+    }
+    .third{
+        padding: 150px 0 0;
+        display: flex;
+    }
+    .gredient{
+        width: 228px;
+        height: 228px;
+        background-image: linear-gradient(#23bdf3, #633be2);
+        border-radius: 50%;
+        position: relative;
+        animation: gredient reverse;
+        animation-duration: 2s;
+    }
+    @keyframes  gredient{
+        0%{
+            left: 0;
+            right: 0px;
+        }
+        50%{
+            left: 100%;
+        }
+    }
+    
+    .thbg{
+    background: url("img/bg2.jpg");
+    width: 70%;
+    position: relative;
+    background-size: cover;
+    right: 11%;
+    top: 102px;
+    border-radius: 14px;
+    height: 455px;
+    animation: bg reverse;
+    animation-duration: 2s;
+    }
+    @keyframes  bg{
+    0%{
+        left: 0;
+        right: 0px;
+    }
+    50%{
+        left: 100%;
+    }
+    }
+    .thirddata{
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        min-height: 451px;
+        position: relative;
+        color: #111111;
+        background-color: #f2f2f2;
+        padding: 30px 40px;
+        border-radius: 2%;
+        position: relative;
+        bottom: 96px;
+        left: 61%;
+        animation: d normal;
+        animation-duration: 3s;
+    }
+    @keyframes  d{
+        0%{
+            left: 0;
+            right: 0px;
+        }
+        50%{
+            left: 80%;
+        }
+    }
+    .thirddata h2{
+        font-size: 54px;
+    }
+    .p1{
+        line-height: 1.8;
+        font-size: 1.25rem;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .p2{
+        line-height: 1.8;
+        font-size: 1.25rem;
+        margin-bottom: 20px;
+    }
+    .p2 a{
+        color: black;
+        border-bottom: 2px solid;
+    }
+    .a{
+        margin-top: 44px;
+    }
+    .a a{
+        border-style: none;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-size: 0.875rem;
+        background-image: linear-gradient(to right, #23bdf3, #633be2);
+        padding: 20px 30px 21px 13px;
+        color: white;
+    }
+    .section4{
+    background: #f2f2f2;
+    }
+    .fourflex{
+        display: flex;
+        gap: 5%;
+        padding: 94px 0;
+        position: relative;
+    
+    }
+    .four1{
+        width: 53%;
+        padding: 157px 20px 0;
+        position: relative;
+        animation: for reverse;
+        animation-duration: 2s;
+    }
+    @keyframes for {
+        from{
+            left: 0px;
+            right: 0px;
+            transform: rotate(0deg);
+        }
+        to{
+            right: 50%;
+            transform: rotate(359deg);
+        }
+    }
+    .four1 h2 {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 1.2;
+    }
+    .four2{
+        width: 55%;
+        position: relative;
+        animation: forflex reverse;
+        animation-duration: 2s;
+    }
+    @keyframes forflex {
+        from{
+            left: 0px;
+            right: 0px;
+        }
+        to{
+            left: 50%;
+        }
+    }
+    .f1{
+        display: flex;
+        justify-content: start;
+        padding: 20px;
+        gap: 23px;
+        border-bottom: 1px solid;
+        width: 84%;
+    }
+    .img {
+        width: 18%;
+        border: 6px solid;
+        border-color: #633be2;
+        border-radius: 50%;
+        overflow: hidden;
+        position: relative;
+        animation: new normal;
+        animation-duration: 2s;
+    }
+    @keyframes new {
+        from{
+            transform: rotate(0deg);
+        }
+        to{
+            transform: rotate(359deg);
+        }
+    }
+    .img img{
+        width: 100%;
+        object-fit: cover;
+        height: 100%;
+    }
+    .imd {
+        margin-top: 20px;
+    }
+    .imd h6{
+        font-weight: 700;
+        line-height: 1.2;
+        font-size: 1.125rem;
+    }
+    .imd p{
+        font-size: 20px;
+        font-style: italic;
+        font-weight: 100;
+    }
+    .section5{
+        background: rgb(242,242,242);
+        background: linear-gradient(180deg, rgba(242,242,242,1) 63%, rgba(255,255,255,1) 63%);
+        position: relative;
+        animation: section5 normal;
+        animation-duration: 2s;
+    }
+    @keyframes section5 {
+        from{
+            transform: rotate(0deg);
+        }
+        to{
+            transform: rotate(359deg);
+        }
+    }
+    .fifth{
+        padding: 88px 0 0;
+    }
+    .fifth h2{
+        font-size: 35px;
+        width: 100%;
+        text-align: center;
+    }
+    .float{
+        padding: 0px;
+    }
+    .grad{
+        width: 228px;
+        height: 228px;
+        background-image: linear-gradient(#23bdf3, #633be2);
+        border-radius: 50%;
+        position: relative;
+        float: right;
+    }
+    .fiftbg{
+    background: url("img/fifth.jpg");
+    background-size: cover;
+    width: 70%;
+    height: 532px;
+    position: relative;
+    top: 102px;
+    left: 20%;
+    left: 23%;
+    border-radius: 3%;
+    background-position: 47%;
+    }
+    .fifthd{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 37%;
+        background: white;
+        padding: 15px;
+        border-radius: 2%;
+        bottom: 282px;
+        right: 58px;
+    }
+    .section6{
+    
+    }
+    .header{
+        text-align: center;  
+        position: relative;
+        animation: he normal;
+        animation-duration: 2s;
+    }
+    @keyframes he {
+        from{
+            transform: scale(0.3,0.3);
+        }
+        to{
+            transform: scale(1,1);
+        }
+    }
+    .header h2{
+        font-size: 54px;
+    }
+    .sixflex{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1px;
+        margin: 95px 0;
+    }
+    .s1{
+    background: url("img/six1.jpg");
+    background-size: cover;
+    width: 24%;
+    padding: 30px;
+    border-radius: 4%;
+    background-position: center;
+    }
+    .s2{
+        width: 28%;
+        padding: 28px;
+        text-align: center;
+        position: relative;
+        animation: s2 normal;
+        animation-duration: 2s;
+    }
+    @keyframes s2 {
+        from{
+            transform: scale(0.1,0.1);
+            /* transform: rotate(0deg); */
+        }
+        to{
+            transform: scale(1,1);
+            /* transform: rotate(359deg); */
+        }
+    }
+    .s2 h4{
+        line-height: 1.2;
+        font-size: 1.5rem;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-weight: 700;
+    }
+    .s2 p{
+        font-size: 20px;
+        line-height: 1.6;
+        margin: 20px 0;
+    }
+    .s3{
+    background: url("img/six2.jpg");
+    background-size: cover;
+    background-size: cover;
+    width: 26%;
+    padding: 30px;
+    border-radius: 4%;
+    background-position: center;
+    }
+    .s4{
+    background: url("img/six3.jpg");
+    background-size: cover;
+        width: 30%;
+        background-position: center;
+        margin: 26px 0 0;
+        background-position: center;
+        border-radius: 4%;
+    }
+    .section7{
+        padding: 76px 0 255px;
+    }
+    .header p{
+        font-size: 18px;
+        padding: 23px 180px; 
+    }
+    .bxflex{
+        display: flex;
+        justify-content: space-around;
+        padding: 28px 0;
+    }
+    .bx1{
+        background-image: linear-gradient(#633be2, #23bdf3);
+        width: 19%;
+        display: flex;
+        flex-direction: column;
+        padding: 50px 20px;
+        color: white;
+        border-radius: 20px;
+        position: relative;
+        animation: bx normal;
+        animation-duration: 2s;
+    }
+    @keyframes bx {
+        from{
+            top: 50px;
+            transform: scale(0.2,0.2);
+        }
+        to{
+            top: 0px;
+            transform: scale(1,1);
+        }
+    }
+    .bx1 p{
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 1rem;
+        margin: 0 auto;
+    }
+    .bx1 h3{
+        font-size: 4.5rem;
+        font-weight: 700;
+        margin: 20px auto 0;
+    }
+    .section8{
+        background-image: linear-gradient(to right, #23bdf3, #633be2);
+    }
+    .cont1{
+        display: flex;
+        justify-content: center;
+        gap: 23px;
+        position: relative;
+        bottom: 127px;
+    }
+    .contdata{
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        width: 24%;
+        padding: 27px 10px;
+        background: antiquewhite;
+        text-align: center;
+        align-items: center;
+        border-radius: 17px;
+        color: black;
+        background: #f2f2f2;
+    }
+    .contdata img{
+        width: 33%;
+    }
+    .contdata h5{
+        font-weight: 700;
+        margin: 20px 0 0;
+        line-height: 1.2;
+        font-size: 1.25rem;
+    }
+    .contdata p{
+        line-height: 1.8;
+        font-size: 1.25rem;
+        margin-top: 20px;
+    }
+    .mainflex{
+        display: flex;
+        justify-content: space-between;
+        color: white;
+    }
+    .form{
+        width: 48%;
+    }
+    .lab{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .name{
+        width: 48%;
+    }
+    .name label{
+        display: block;
+        font-weight: 700;
+    }
+    .name input{
+        width: 98%;
+        padding: 7px 0;
+        font-size: 19px;
+    }
+    .mess{
+        margin: 54px 0 0;
+    }
+    .mess label{
+        display: block;
+        font-weight: 700;
+    }
+    .mess textarea{
+        width: 99%;
+    }
+    .ank{
+        width: 99%;
+        text-align: center;
+        color: #ffffff ;
+        background-color: #ed5e00 ;
+        padding: 14px 0 15px;
+        margin: 23px 0;
+    }
+    .ank a{
+        border-style: none;
+        text-transform: uppercase;
+        font-weight: 700;
+        letter-spacing: 3px;
+        color: white;
+    }
+    .formdata{
+        width: 44%;
+    }
+    .formdata h2{
+        line-height: 1;
+        font-size: 4.5rem;
+        margin-bottom: 20px;
+        letter-spacing: 1px;
+        font-weight: 700;
+    }
+    .formdata h6{
+        font-weight: 700;
+        line-height: 1.8;
+        font-style: italic;
+        font-size: 1.125rem;
+        margin: 20px 0 0;
+    }
+    .formdata p{
+        line-height: 2;
+        font-size: 1rem;
+        margin: 20px 0 0;
+    }
+    .li{
+        list-style-type: none;
+        display: flex;
+        width: 38%;
+        justify-content: space-between;
+        margin: 23px 0;
+    }
+    .li li{
+        font-size: 40px;
+    }
+    
+    }
+    @media screen and (min-width:768px) and (max-width:1023px) {
+        h1{
+            font-size: 55px;
+        } 
+    .section1{
+    
+    }
+    .container{
+        margin: auto;
+        padding: 0 0 0 14%;
+    }
+    .oneflex{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .oned{
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        padding: 0 0 0 20px;
+        animation: one 1s reverse 0.5s;
+        position: relative;
+    }
+    @keyframes one{
+        0%{
+            left: 0px;
+            right: 0px;
+    
+        }
+        50%{
+            right: 400px;
+        }
+        
+    }
+    
+    .oned h1{
+        font-weight: 700;
+        line-height: 1.1;
+        text-shadow: -2px 2px 3px rgba(255,255,255,1);
+        color: #633be2;
+    }
+    .oned p{
+        line-height: 1.8;
+        font-size: 1.25rem;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .section1 a{
+        color: black;
+        border-bottom: 1px solid;
+    }
+    .oned button{
+        border-style: none;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-size: 0.875rem;
+        background-image: linear-gradient(to right, #23bdf3, #633be2);
+        padding: 20px 30px 21px 13px;
+        width: 48%;
+        color: white;
+    }
+    .oned button:hover{
+        color: rgba(255, 255, 255, 0.858);
+    }
+    .onebg{
+       background: url("img/bg1.jpg"); 
+       width: 100%;
+       background-size: cover;
+       position: relative;
+       animation: onebg 1s reverse 0.5s;
+       height: 579px;
+       
+    }
+    @keyframes onebg{
+        0%{
+            left: 0px;
+            right: 0px;
+        }
+        50%{
+           left: 100%;
+        }
+    }
+    .section2{
+    
+    }
+    .cont{
+    padding: 0 8%;
+    }
+    .head{
+        text-align: center;
+        padding: 30px 0;
+    }
+    .head h2{
+        font-size: 72px;
+        position: relative;
+        animation: header normal;
+        animation-duration: 2s;
+    }
+    @keyframes header{
+        0%{
+            right: 0px;
+            left: 0px;
+        }
+        50%{
+            right: 100%;
+        }
+        100%{
+            right: 0px;
+        }
+    }
+    .head p{
+        font-size: 20px;
+        line-height: 1.8;
+        padding: 0 5%;
+        margin: 10px 0 0;
+        position: relative;
+        animation: headerp reverse;
+        animation-duration: 2s;
+    }
+    @keyframes headerp{
+        0%{
+            right: 0px;
+            left: 0px;
+        }
+        50%{
+            left: 100%;
+        }
+        100%{
+            right: 0px;
+        }
+    }
+    .logoflex{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 56px;
+        cursor: pointer;
+        margin-top: 39px;
+    }
+    .log1{
+        display: flex;
+        box-sizing: border-box;
+        width: 44%;
+        gap: 3px;
+        position: relative;
+        animation: log normal;
+        animation-duration: 2s;
+    }
+    @keyframes log{
+        0%{
+           transform: scale(1,1);
+        }
+        50%{
+           transform: scale(1.2,1.2);
+        }
+        100%{
+            transform: scale(1,1);
+        }
+    }
+    .log1 img{
+        width: 25px;
+    }
+    .log1 h6{
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 1.2;
+    }
+    .section3{
+        margin-bottom: 23px;
+    }
+    .third{
+        padding: 150px 0 0;
+        display: flex;
+    }
+    .gredient{
+        width: 310px;
+    height: 207px;
+    background-image: linear-gradient(#23bdf3, #633be2);
+    border-radius: 50%;
+    position: relative;
+    animation: gredient reverse;
+    animation-duration: 2s;
+    }
+    @keyframes  gredient{
+        0%{
+            left: 0;
+            right: 0px;
+        }
+        50%{
+            left: 100%;
+        }
+    }
+    
+    .thbg{
+    background: url("img/bg2.jpg");
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    right: 21%;
+    top: 102px;
+    border-radius: 14px;
+    height: 312px;
+    animation: bg reverse;
+    animation-duration: 2s;
+}
+    
+    @keyframes  bg{
+    0%{
+        left: 0;
+        right: 0px;
+    }
+    50%{
+        left: 100%;
+    }
+}
+    
+    .thirddata{
+        display: flex;
+    flex-direction: column;
+    width: 40%;
+    min-height: 451px;
+    position: relative;
+    color: #111111;
+    background-color: #f2f2f2;
+    padding: 30px 40px;
+    border-radius: 2%;
+    position: relative;
+    bottom: 0;
+    left: 43%;
+    animation: d normal;
+    animation-duration: 3s;
+    }
+    @keyframes  d{
+        0%{
+            left: 0;
+            right: 0px;
+        }
+        50%{
+            left: 80%;
+        }
+    }
+    .thirddata h2{
+        font-size: 55px;
+    }
+    .p1{
+        line-height: 1.8;
+        font-size: 1.25rem;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .p2{
+        line-height: 1.8;
+        font-size: 1.25rem;
+        margin-bottom: 20px;
+    }
+    .p2 a{
+        color: black;
+        border-bottom: 2px solid;
+    }
+    .a{
+        margin-top: 44px;
+    }
+    .a a{
+        border-style: none;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-size: 0.875rem;
+        background-image: linear-gradient(to right, #23bdf3, #633be2);
+        padding: 20px 30px 21px 13px;
+        color: white;
+    }
+    .section4{
+    background: #f2f2f2;
+    }
+    .fourflex{
+           display: flex;
+    gap: 5%;
+    /* padding: 94px 0; */
+    position: relative;
+    flex-wrap: wrap;
+    
+    }
+    .four1{
+        width: 53%;
+    padding: 58px 20px 34px;
+    position: relative;
+    animation: for reverse;
+    animation-duration: 2s;
+    }
+    @keyframes for {
+        from{
+            left: 0px;
+            right: 0px;
+            transform: rotate(0deg);
+        }
+        to{
+            right: 50%;
+            transform: rotate(359deg);
+        }
+    }
+    .four1 h2 {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 1.2;
+    }
+    .four2{
+        width: 100%;
+        position: relative;
+        animation: forflex reverse;
+        animation-duration: 2s;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 23px;
+    }
+    @keyframes forflex {
+        from{
+            left: 0px;
+            right: 0px;
+        }
+        to{
+            left: 50%;
+        }
+    }
+    .f1{
+        display: flex;
+        /* justify-content: start; */
+        padding: 20px;
+        gap: 6px;
+        border-bottom: 1px solid;
+        width: 42%;
+        margin-top: 23px;
+    
+    }
+    .img {
+        width: 26%;
+        border: 6px solid;
+        border-color: #633be2;
+        border-radius: 50%;
+        overflow: hidden;
+        position: relative;
+        animation: new normal;
+        animation-duration: 2s;
+    }
+    @keyframes new {
+        from{
+            transform: rotate(0deg);
+        }
+        to{
+            transform: rotate(359deg);
+        }
+    }
+    .img img{
+        width: 100%;
+        object-fit: cover;
+        height: 100%;
+    }
+    .imd {
+        margin-top: 20px;
+        width: 68%;
+    }
+    .imd h6{
+        font-weight: 700;
+        line-height: 1.2;
+        font-size: 1.125rem;
+    }
+    .imd p{
+        font-size: 20px;
+        font-style: italic;
+        font-weight: 100;
+    }
+    .section5{
+        background: rgb(242,242,242);
+        background: linear-gradient(180deg, rgba(242,242,242,1) 63%, rgba(255,255,255,1) 63%);
+        position: relative;
+        animation: section5 normal;
+        animation-duration: 2s;
+    }
+    @keyframes section5 {
+        from{
+            transform: rotate(0deg);
+        }
+        to{
+            transform: rotate(359deg);
+        }
+    }
+    .fifth{
+        padding: 88px 0 0;
+    }
+    .fifth h2{
+        font-size: 55px;
+        width: 100%;
+    }
+    .float{
+        padding: 0px;
+    }
+    .grad{
+        width: 228px;
+        height: 228px;
+        background-image: linear-gradient(#23bdf3, #633be2);
+        border-radius: 50%;
+        position: relative;
+        float: right;
+    }
+    .fiftbg{
+    background: url("img/fifth.jpg");
+    background-size: cover;
+    width: 70%;
+        height: 532px;
+        position: relative;
+        top: 102px;
+        left: 22%;
+        border-radius: 3%;
+        background-position: center;
+    }
+    .fifthd{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 37%;
+        background: white;
+        padding: 40px;
+        border-radius: 2%;
+        bottom: 282px;
+        right: 58px;
+    }
+    .section6{
+    
+    }
+    .header{
+        text-align: center;  
+        position: relative;
+        animation: he normal;
+        animation-duration: 2s;
+    }
+    @keyframes he {
+        from{
+            transform: scale(0.3,0.3);
+        }
+        to{
+            transform: scale(1,1);
+        }
+    }
+    .header h2{
+        font-size: 55px;
+    }
+    .sixflex{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1px;
+        margin: 95px 0;
+    }
+    .s1{
+    background: url("img/six1.jpg");
+    background-size: cover;
+    width: 31%;
+    /* padding: 30px; */
+    border-radius: 4%;
+    background-position: center;
+    }
+    .s2{
+        width: 28%;
+        padding: 28px;
+        text-align: center;
+        height: 317px;
+        /* margin: 70px 0 0; */
+        position: relative;
+        animation: s2 normal;
+        animation-duration: 2s;
+    }
+    @keyframes s2 {
+        from{
+            transform: scale(0.1,0.1);
+            /* transform: rotate(0deg); */
+        }
+        to{
+            transform: scale(1,1);
+            /* transform: rotate(359deg); */
+        }
+    }
+    .s2 h4{
+        line-height: 1.2;
+        font-size: 1.5rem;
+        margin-bottom: 20px;
+        font-weight: 700;
+    }
+    .s2 p{
+        font-size: 17px;
+        line-height: 1.6;
+        margin: 20px 0;
+    }
+    .s3{
+    background: url("img/six2.jpg");
+    background-size: cover;
+    width: 32%;
+    border-radius: 4%;
+    background-position: center;
+    }
+    .s4{
+    background: url("img/six3.jpg");
+    background-size: cover;
+    width: 27%;
+    background-position: center;
+    /* margin: 26px 0 0; */
+    background-position: center;
+    border-radius: 4%;
+    }
+    .section7{
+        padding: 76px 0 255px;
+    }
+    .header p{
+        font-size: 17px;
+        padding: 23px 0;
+    }
+    .bxflex{
+        display: flex;
+        justify-content: space-around;
+        padding: 28px 0;
+        flex-wrap: wrap;
+        gap: 27px;
+    }
+    .bx1{
+        background-image: linear-gradient(#633be2, #23bdf3);
+        width: 42%;
+        display: flex;
+        flex-direction: column;
+        padding: 50px 20px;
+        color: white;
+        border-radius: 20px;
+        position: relative;
+        animation: bx normal;
+        animation-duration: 2s;
+    }
+    @keyframes bx {
+        from{
+            top: 50px;
+            transform: scale(0.2,0.2);
+        }
+        to{
+            top: 0px;
+            transform: scale(1,1);
+        }
+    }
+    .bx1 p{
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 1rem;
+        margin: 0 auto;
+    }
+    .bx1 h3{
+        font-size: 4.5rem;
+        font-weight: 700;
+        margin: 20px auto 0;
+    }
+    .section8{
+        background-image: linear-gradient(to right, #23bdf3, #633be2);
+    }
+    .cont1{
+        display: flex;
+        justify-content: center;
+        gap: 23px;
+        position: relative;
+        bottom: 127px;
+        flex-wrap: wrap;
+    }
+    .contdata{
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        width: 48%;
+        padding: 27px 10px;
+        background: antiquewhite;
+        text-align: center;
+        align-items: center;
+        border-radius: 17px;
+        color: black;
+        background: #f2f2f2;
+    }
+    .contdata img{
+        width: 21%;
+    }
+    .contdata h5{
+        font-weight: 700;
+        margin: 20px 0 0;
+        line-height: 1.2;
+        font-size: 1.25rem;
+    }
+    .contdata p{
+        line-height: 1.8;
+        font-size: 1.25rem;
+        margin-top: 20px;
+    }
+    .mainflex{
+        display: flex;
+        justify-content: space-between;
+        color: white;
+    }
+    .form{
+        width: 48%;
+    }
+    .lab{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .name{
+        width: 48%;
+    }
+    .name label{
+        display: block;
+        font-weight: 700;
+    }
+    .name input{
+        width: 98%;
+        padding: 7px 0;
+        font-size: 19px;
+    }
+    .mess{
+        margin: 54px 0 0;
+    }
+    .mess label{
+        display: block;
+        font-weight: 700;
+    }
+    .mess textarea{
+        width: 99%;
+    }
+    .ank{
+        width: 99%;
+        text-align: center;
+        color: #ffffff ;
+        background-color: #ed5e00 ;
+        padding: 14px 0 15px;
+        margin: 23px 0;
+    }
+    .ank a{
+        border-style: none;
+        text-transform: uppercase;
+        font-weight: 700;
+        letter-spacing: 3px;
+        color: white;
+    }
+    .formdata{
+        width: 44%;
+    }
+    .formdata h2{
+        line-height: 1;
+        font-size: 4.5rem;
+        margin-bottom: 20px;
+        letter-spacing: 1px;
+        font-weight: 700;
+    }
+    .formdata h6{
+        font-weight: 700;
+        line-height: 1.8;
+        font-style: italic;
+        font-size: 1.125rem;
+        margin: 20px 0 0;
+    }
+    .formdata p{
+        line-height: 2;
+        font-size: 1rem;
+        margin: 20px 0 0;
+    }
+    .li{
+        list-style-type: none;
+        display: flex;
+        width: 67%;
+        justify-content: space-between;
+        margin: 23px 0;
+    }
+    .li li{
+        font-size: 40px;
+    }
+    
+    }
+    @media screen and (min-width:320px) and (max-width:767px) {
+        h1,h2{
+            font-size: 35px;
+            color: black;
+        } 
+    .section1{
+    
+    }
+    .container{
+        margin: auto;
+        padding: 0 0 0 14%;
+    }
+    .oneflex{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .oned{
+        width: 74%;
+        display: flex;
+        flex-direction: column;
+        /* padding: 175px 0 174px 20px; */
+        animation: one 1s reverse 0.5s;
+        position: relative;
+    }
+    @keyframes one{
+        0%{
+            left: 0px;
+            right: 0px;
+    
+        }
+        50%{
+            right: 400px;
+        }
+        
+    }
+    
+    .oned h1{
+        font-weight: 700;
+        line-height: 1.1;
+        text-shadow: -2px 2px 3px rgba(255,255,255,1);
+        color: #633be2;
+    }
+    .oned p{
+        line-height: 1.8;
+        font-size: 1.25rem;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .section1 a{
+        color: black;
+        border-bottom: 1px solid;
+    }
+    .oned button{
+        border-style: none;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-size: 0.875rem;
+        background-image: linear-gradient(to right, #23bdf3, #633be2);
+        padding: 20px 30px 21px 13px;
+        width: 60%;
+        color: white;
+    }
+    .oned button:hover{
+        color: rgba(255, 255, 255, 0.858);
+    }
+    .onebg{
+       background: url("img/bg1.jpg"); 
+       width: 100%;
+       background-size: cover;
+       position: relative;
+       animation: onebg 1s reverse 0.5s;
+       height: 413px;
+       background-position: 20%;
+       
+    }
+    @keyframes onebg{
+        0%{
+            left: 0px;
+            right: 0px;
+        }
+        50%{
+           left: 100%;
+        }
+    }
+    .section2{
+    
+    }
+    .cont{
+    padding: 0 4%;
+    }
+    .head{
+        text-align: center;
+        padding: 30px 0;
+    }
+    .head h2{
+        font-size: 37px;
+        position: relative;
+        animation: header normal;
+        animation-duration: 2s;
+    }
+    @keyframes header{
+        0%{
+            right: 0px;
+            left: 0px;
+        }
+        50%{
+            right: 100%;
+        }
+        100%{
+            right: 0px;
+        }
+    }
+    .head p{
+        font-size: 16px;
+    line-height: 1.8;
+    margin: 10px 0 0;
+    position: relative;
+    animation: headerp reverse;
+    animation-duration: 2s;
+    }
+    @keyframes headerp{
+        0%{
+            right: 0px;
+            left: 0px;
+        }
+        50%{
+            left: 100%;
+        }
+        100%{
+            right: 0px;
+        }
+    }
+    .logoflex{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 58px;
+        cursor: pointer;
+    }
+    .log1{
+        display: flex;
+        box-sizing: border-box;
+        width: 100%;
+        gap: 3px;
+        position: relative;
+        animation: log normal;
+        animation-duration: 2s;
+    }
+    @keyframes log{
+        0%{
+           transform: scale(1,1);
+        }
+        50%{
+           transform: scale(1.2,1.2);
+        }
+        100%{
+            transform: scale(1,1);
+        }
+    }
+    .log1 img{
+        width: 25px;
+    }
+    .log1 h6{
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 1.2;
+    }
+    .section3{
+    
+    }
+    .third{
+        padding: 150px 0 0;
+        display: flex;
+        width: 100%;
+    }
+    .gredient{
+        width: 190%;
+        height: 140px;
+        background-image: linear-gradient(#23bdf3, #633be2);
+        border-radius: 50%;
+        position: relative;
+        animation: gredient reverse;
+        animation-duration: 2s;
+    }
+    @keyframes  gredient{
+        0%{
+            left: 0;
+            right: 0px;
+        }
+        50%{
+            left: 100%;
+        }
+    }
+    
+    .thbg{
+    background: url("img/bg2.jpg");
+    width: 245%;
+    position: relative;
+    background-size: cover;
+    right: 17%;
+    top: 75px;
+    border-radius: 14px;
+    animation: bg reverse;
+    animation-duration: 2s;
+    }
+    @keyframes  bg{
+    0%{
+        left: 0;
+        right: 0px;
+    }
+    50%{
+        left: 100%;
+    }
+    }
+    .thirddata{
+        display: flex;
+        flex-direction: column;
+        width: 59%;
+        min-height: 451px;
+        position: relative;
+        color: #111111;
+        background-color: #f2f2f2;
+        padding: 30px;
+        border-radius: 2%;
+        position: relative;
+        bottom: 96px;
+        left: 0%;
+        animation: d normal;
+        animation-duration: 3s;
+        text-align: center;
+        top: 34px;
+        margin-bottom: 81px;
+    }
+    @keyframes  d{
+        0%{
+            left: 0;
+            right: 0px;
+        }
+        50%{
+            left: 80%;
+        }
+    }
+    .thirddata h2{
+        /* font-size: 37px; */
+    }
+    .p1{
+        line-height: 1.8;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   
+    }
+    .p2{
+        line-height: 1.8;
+        font-size: 1.25rem;
+      
+    }
+    .p2 a{
+        color: black;
+        border-bottom: 2px solid;
+    }
+    .a{
+        margin-top: 26px;
+    }
+    .a a{
+        border-style: none;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-size: 0.875rem;
+        background-image: linear-gradient(to right, #23bdf3, #633be2);
+        padding: 20px 30px 21px 13px;
+        color: white;
+    }
+    .section4{
+    background: #f2f2f2;
+    }
+    .fourflex{
+        padding: 94px 0;
+        position: relative;
+    
+    }
+    .four1{
+        width: 100%;
+        padding: 0px 7px 56px;
+        position: relative;
+        animation: for reverse;
+        animation-duration: 2s;
+    }
+    @keyframes for {
+        from{
+            left: 0px;
+            right: 0px;
+            transform: rotate(0deg);
+        }
+        to{
+            right: 50%;
+            transform: rotate(359deg);
+        }
+    }
+    .four1 h2 {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 1.2;
+    }
+    .four2{
+        width: 100%;
+        position: relative;
+        animation: forflex reverse;
+        animation-duration: 2s;
+    }
+    @keyframes forflex {
+        from{
+            left: 0px;
+            right: 0px;
+        }
+        to{
+            left: 50%;
+        }
+    }
+    .f1{
+        display: flex;
+        padding: 20px 2px;
+        gap: 15px;
+        border-bottom: 1px solid;
+        width: 98%;
+    }
+    .img {
+        width: 22%;
+        border: 6px solid;
+        border-color: #633be2;
+        border-radius: 50%;
+        overflow: hidden;
+        position: relative;
+        animation: new normal;
+        animation-duration: 2s;
+    }
+    @keyframes new {
+        from{
+            transform: rotate(0deg);
+        }
+        to{
+            transform: rotate(359deg);
+        }
+    }
+    .img img{
+        width: 100%;
+        object-fit: cover;
+        height: 100%;
+    }
+    .imd {
+        margin-top: 20px;
+        width: 61%;
+    }
+    .imd h6{
+        font-weight: 700;
+        line-height: 1.2;
+        font-size: 1.125rem;
+    }
+    .imd p{
+        font-size: 20px;
+        font-style: italic;
+        font-weight: 100;
+    }
+    .section5{
+        background: rgb(242,242,242);
+        background: linear-gradient(180deg, rgba(242,242,242,1) 63%, rgba(255,255,255,1) 63%);
+        position: relative;
+        animation: section5 normal;
+        animation-duration: 2s;
+    }
+    @keyframes section5 {
+        from{
+            transform: rotate(0deg);
+        }
+        to{
+            transform: rotate(359deg);
+        }
+    }
+    .fifth{
+        padding: 40px 0 0;
+    }
+    .fifth h2{
+        /* font-size: 72px; */
+        /* width: 68%; */
+    }
+    .float{
+        padding: 0px;
+    }
+    .grad{
+        width: 228px;
+        height: 228px;
+        background-image: linear-gradient(#23bdf3, #633be2);
+        border-radius: 50%;
+        position: relative;
+        float: right;
+    }
+    .fiftbg{
+    background: url("img/fifth.jpg");
+    background-size: cover;
+    width: 84%;
+    height: 308px;
+    position: relative;
+    top: 102px;
+    left: 1%;
+    border-radius: 3%;
+    background-position: 57%;
+    }
+    .fifthd{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 56%;
+        background: white;
+        padding: 30px;
+        border-radius: 2%;
+        left: 29%;
+        text-align: center;
+        margin-bottom: 57px;
+    }
+    .section6{
+    
+    }
+    .header{
+        text-align: center;  
+        position: relative;
+        animation: he normal;
+        animation-duration: 2s;
+    }
+    @keyframes he {
+        from{
+            transform: scale(0.3,0.3);
+        }
+        to{
+            transform: scale(1,1);
+        }
+    }
+    .header h2{
+        /* font-size: 72px; */
+    }
+    .sixflex{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1px;
+        margin: 38px 0;
+    }
+    .s1{
+    background: url("img/six1.jpg");
+    background-size: cover;
+    width: 96%;
+    border-radius: 4%;
+    background-position: center;
+    height: 396px;
+    }
+    .s2{
+        width: 100%;
+        text-align: center;
+        height: 319px;
+        margin: 8px 0 0;
+        position: relative;
+        animation: s2 normal;
+        animation-duration: 2s;
+        font-size: 31px;
+    }
+    @keyframes s2 {
+        from{
+            transform: scale(0.1,0.1);
+            /* transform: rotate(0deg); */
+        }
+        to{
+            transform: scale(1,1);
+            /* transform: rotate(359deg); */
+        }
+    }
+    .s2 h4{
+        line-height: 1.2;
+        font-size: 1.5rem;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-weight: 700;
+    }
+    .s2 p{
+        font-size: 20px;
+        line-height: 1.6;
+        margin: 20px 0;
+    }
+    .s3{
+    background: url("img/six2.jpg");
+    background-size: cover;
+    width: 100%;
+    padding: 30px;
+    border-radius: 4%;
+    background-position: center;
+    height: 396px;
+    }
+    .s4{
+    background: url("img/six3.jpg");
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+    margin: 26px 0 0;
+    background-position: center;
+    border-radius: 4%;
+    height: 396px;
+    }
+    .section7{
+        padding: 0 0 255px;
+    }
+    .header p{
+        font-size: 18px;
+        padding: 23px 0px;
+        line-height: 1.7; 
+    }
+    .bxflex{
+        display: flex;
+        justify-content: space-around;
+        padding: 28px 0;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .bx1{
+        background-image: linear-gradient(#633be2, #23bdf3);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 20px;
+    color: white;
+    border-radius: 20px;
+    position: relative;
+    animation: bx normal;
+    animation-duration: 2s;
+    }
+    @keyframes bx {
+        from{
+            top: 50px;
+            transform: scale(0.2,0.2);
+        }
+        to{
+            top: 0px;
+            transform: scale(1,1);
+        }
+    }
+    .bx1 p{
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 1rem;
+        margin: 0 auto;
+    }
+    .bx1 h3{
+        font-size: 37px;
+        font-weight: 700;
+        margin: 20px auto 0;
+    }
+    .section8{
+        background-image: linear-gradient(to right, #23bdf3, #633be2);
+    }
+    .cont1{
+        display: flex;
+        justify-content: center;
+        gap: 23px;
+        position: relative;
+        bottom: 127px;
+        flex-wrap: wrap;
+    }
+    .contdata{
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        width: 100%;
+        padding: 27px 10px;
+        background: antiquewhite;
+        text-align: center;
+        align-items: center;
+        border-radius: 17px;
+        color: black;
+        background: #f2f2f2;
+    }
+    .contdata img{
+        width: 20%;
+    }
+    .contdata h5{
+        font-weight: 700;
+        margin: 20px 0 0;
+        line-height: 1.2;
+        font-size: 1.25rem;
+    }
+    .contdata p{
+        line-height: 1.8;
+        font-size: 1.25rem;
+        margin-top: 20px;
+    }
+    .mainflex{
+        display: flex;
+        justify-content: space-between;
+        color: white;
+        flex-wrap: wrap;
+    }
+    .form{
+        width: 100%;
+    }
+    .lab{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 23px;
+    }
+    .name{
+        width: 100%;
+    }
+    .name label{
+        display: block;
+        font-weight: 700;
+    }
+    .name input{
+        width: 98%;
+        padding: 7px 0;
+        font-size: 19px;
+    }
+    .mess{
+        margin: 24px 0 0;
+    }
+    .mess label{
+        display: block;
+        font-weight: 700;
+    }
+    .mess textarea{
+        width: 99%;
+    }
+    .ank{
+        width: 99%;
+        text-align: center;
+        color: #ffffff ;
+        background-color: #ed5e00 ;
+        padding: 14px 0 15px;
+        margin: 23px 0;
+    }
+    .ank a{
+        border-style: none;
+        text-transform: uppercase;
+        font-weight: 700;
+        letter-spacing: 3px;
+        color: white;
+    }
+    .formdata{
+        width: 100%;
+    }
+    .formdata h2{
+        line-height: 1;
+        font-size: 37px;
+        margin-bottom: 20px;
+        letter-spacing: 1px;
+        font-weight: 700;
+        color: #ffffff;
+    }
+    .formdata h6{
+        font-weight: 700;
+        line-height: 1.8;
+        font-style: italic;
+        font-size: 1.125rem;
+        margin: 20px 0 0;
+    }
+    .formdata p{
+        line-height: 2;
+        font-size: 1rem;
+        margin: 20px 0 0;
+    }
+    .li{
+        list-style-type: none;
+        display: flex;
+        width: 50%;
+        justify-content: space-between;
+        margin: 23px 0;
+    }
+    .li li{
+        font-size: 40px;
+    }
+    
+    }
